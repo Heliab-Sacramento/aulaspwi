@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: black; 
+    font-family:'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 85px;
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+    margin: 35px;
+
+}
+
+    img{
+        height: 500px;
+        width: 450px;
+    }
+
+    section{
+        display: flex;
+        margin: 90px;
+
+    }
+
+    button{
+        background-color: aliceblue;
+        color: black;
+        border-radius:5px;
+        padding: 10px 60px; /* O numero de px que eu coloco no padding se refere as laterais do botão
+        */
+        margin-top: 10px;
+        margin-left: 70px;
+        margin-right: 70px;
+        font-size: 45px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        color: blueviolet; /* cor do botao ao passar o curso por cima */
+    }
+
+    
+
+.buton{
+    display: flex;
+    justify-content: center;
+ }
+
+ header img{
+     height: 55px;
+     width: 55px;    
+     margin: 20px 30px;
+
+ }
+   
+ 
+
+    
