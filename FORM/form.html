@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <!-- method envia os dados por endereço -->
+     <!-- post envia para o proprio body da pasta -->
+    <form action="#" method="post" style="width: 80%; margin: auto;"> 
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="txt_nome" id="nome " placeholder="Nome completo" maxlength="100" size="50" required>
+        </div>
+
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="pass" id="senha" placeholder="
+            digite sua senha" required minlength="8" maxlength="100">
+        </div>
+
+        <div>
+            <h2>Qual desses filmes entra na lista dos favoritos?</h2>
+            <input type="checkbox" name="lotr" id="lotr" checked>
+            <label for="lotr">Senhor dos Anéis</label><br>
+            <input type="checkbox" name="sw" id="sw">
+            <label for="sw">Star Wars</label><br>
+            <input type="checkbox" name="hp" id="hp">
+            <label for="hp">Harry Potter</label>
+        </div>
+
+        <div>
+            <h2>Qual seu herói favorito?</h2>
+            <input type="radio" name="heroi" id="home">
+            <label for="home">Captão Pátria</label><br>
+            <input type="radio" name="heroi" id="">
+            <label for="Profundo">Profundo</label><br>
+            <input type="radio" name="heroi" id="noir">
+            <label for="noir">Noir</label>
+        </div>
+
+        <div>
+            <h2>Selecione um planeta</h2>
+            <select name="planetas">
+                <option value="terra">terra</option>
+                <option value="Mart">Marte</option>
+                <option value="Jupiter">Jupiter</option>
+                <option value="Saturno">Saturno</option>
+                <option value="Venus">Venus</option>
+                
+            </select>
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
